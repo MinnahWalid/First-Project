@@ -1,0 +1,197 @@
+/*
+
+font-family: cairo \ comfortaa
+color: red \ #21455e
+
+*/
+body{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.navbar{
+    width: 100%;
+    height: 70px;
+}
+.navbar p{
+    font-size: 40px;
+    font-family: comfortaa;
+    float: left;
+    margin-top: 0;
+    padding: 10px;
+    color: #21455e;
+}
+.navbar ul{
+    list-style-type: none;    /*لتكون الليست بدون نقاط */
+    float: left;
+    margin-left: 45%;
+    width: 40%;
+    margin-top: 30px;
+}
+.navbar ul li{
+     display: inline;  /*لتكون الليست على خط واحد */
+    margin-left: 3%;
+    font-family: comfortaa;
+    color: #21455e;
+}
+.navbar ul li:hover{
+    color: red;
+}
+
+/* header */
+.header{
+    width: 100%;
+    height: 600px;
+    background-image: url(img/image1.jpg);
+    background-size: cover;   /*لحتى يخلي الصورة ع قد المساحة المعطاة*/
+    position: relative;
+    /* background-repeat: no-repeat; */  /* لحتى يمنع تكرار الصورة */
+}
+.opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;   /*ليتكون شفافية على الصورة ويكون قيمتها محصورة بين ال0وال1 */
+}
+.header p{
+    position: absolute;
+    top: 180px;
+    left: 23%;
+    color: white;
+    font-family: comfortaa;
+    font-size: 50px;
+    border-bottom: solid red;
+}
+
+/* about */
+.about{
+    padding: 80px 0;
+}
+.about p span{
+    display: block;      /*لعمل الكلمة في سطر وتحتها باقي النص */
+    font-family: comfortaa;
+    font-size: 40px;
+    color: #21455e;
+    border-bottom: solid thin red;
+    text-transform: uppercase;    /*لجعل خط العناوين بالحروف الكبيرة */
+    width: 33%;
+    margin-bottom: 20px;
+}
+.about p{
+    width: 45%;
+    font-family: cairo;
+    font-size: 20px;
+    float: left;
+    margin-left: 5%;
+}
+
+.about img{
+    width: 40%;
+    height: 400px;
+    margin-left: 6%;
+    box-shadow: 10px 0 20px black;
+}
+
+/* services*/
+.services{
+    padding: 80px 0;
+    background-image: url(img/image3.jpg);
+    background-size: cover;
+    position: relative;
+    height: 400px;
+}
+.services .opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.services span{
+    color: white;
+    font-size: 50px;
+    font-family: comfortaa;
+    border-bottom: solid thin red;
+    position: absolute;
+    left: 37%;
+    z-index: 1;     /* لحتى تخلي الكلام فوق الopacity */
+}
+.services .opacity .item{
+    width: 20%;
+    height: 300px;
+    color: white;
+    font-family: karla;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 4%;
+    float: left;
+
+}
+.services .opacity .item i{
+background-color: red;
+padding: 10px;
+}
+
+/*our works*/
+.our-works{
+    padding: 100px 0;
+}
+.our-works span{
+    color: #21455e;
+    font-size: 50px;
+    font-family: comfortaa;
+    border-bottom: solid thin red;
+    text-transform: uppercase;
+    margin-left: 35%;
+}
+.our-works img{
+    width: 25%;
+    height: 250px;
+    margin: 3% 0 0 6.5%;
+}
+
+/*contact us*/
+.contact-us{
+    padding: 100px 0;
+}
+.contact-us .item{
+    width: 25%;
+    height: 100px;
+    float: left;
+    box-shadow: 0 0 20px black;
+    margin-left: 6%;
+    text-align: center;
+    font-family: karla;
+    padding-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #21455e;
+}
+.contact-us ul{
+    list-style-type: none;
+    margin-top: 200px;
+    margin-left: 37%;
+}
+.contact-us ul li{
+    display: inline;
+    margin-left: 4%;
+    color: red;
+}
+.copyright{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-family: karla;
+}
+
+
+
+
+
+
+
